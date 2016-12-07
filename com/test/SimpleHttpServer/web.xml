@@ -2,7 +2,7 @@
 <web-app>
 	<servlet>
 		<name>login</name>
-		<class>com.qiao.HttpServer.demo4.LogonServlet</class>
+		<class>com.test.SimpleHttpServer.LogonServlet</class>
 	</servlet>
 	<mapping>
 		<name>login</name>
@@ -12,7 +12,7 @@
 	
 	<servlet>
 		<name>register</name>
-		<class>com.qiao.HttpServer.demo4.RegisterServlet</class>
+		<class>com.test.SimpleHttpServer.demo4.RegisterServlet</class>
 	</servlet>
 	<mapping>
 		<name>register</name>
@@ -22,7 +22,7 @@
 	
 	<servlet>
 		<name>error</name>
-		<class>com.qiao.HttpServer.demo4.ErrorServlet</class>
+		<class>com.test.SimpleHttpServer.ErrorServlet</class>
 	</servlet>
 	<mapping>
 		<name>error</name>

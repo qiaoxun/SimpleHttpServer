@@ -23,11 +23,9 @@ public class Server6 {
 			CloseUtil.closeAll(server);
 		}
 	}
-	
 	public void stop(){
 		
 	}
-	
 	public void receive(){
 		try {
 			while(true){
