@@ -6,10 +6,10 @@ import java.net.Socket;
 
 import com.test.Util.CloseUtil;
 
-public class Server6 {
+public class Server {
 	private ServerSocket server;
 	public static void main(String[] args) {
-		Server6 server = new Server6();
+		Server server = new Server();
 		server.start();
 	}
 	

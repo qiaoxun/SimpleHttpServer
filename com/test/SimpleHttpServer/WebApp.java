@@ -26,8 +26,8 @@ public class WebApp {
 			SAXParser saxParser = spf.newSAXParser();
 			
 			MyHandler handler = new MyHandler();
-			
-			saxParser.parse("src/main/java/com/qiao/HttpServer/demo4/web.xml", handler);
+			String path = WebApp.class.getResource("").getPath()+"web.xml";
+			saxParser.parse(path, handler);
 			Map<String,String> servlets =  handler.getServlets();
 			Set<String> servletNameSets = servlets.keySet();
 			for(String name : servletNameSets){
